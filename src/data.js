@@ -1,187 +1,214 @@
 let data = [
 
     {
-      "Suit": "Bamboo",
-      "tile": "🀐"
+      "suit": "Bamboo",
+      "tile": "🀐",
+      "id": "1-bamboo"
     },
     {
-      "Suit": "Bamboo",
-      "tile": "🀑"
+      "suit": "Bamboo",
+      "tile": "🀑",
+      "id": "2-bamboo"
     },
     {
-      "Suit": "Bamboo",
-      "tile": "🀒"
+      "suit": "Bamboo",
+      "tile": "🀒",
+      "id": "3-bamboo"
     },
     {
-      "Suit": "Bamboo",
-      "tile": "🀓"
+      "suit": "Bamboo",
+      "tile": "🀓",
+      "id": "4-bamboo"
     },
     {
-      "Suit": "Bamboo",
-      "tile": "🀔"
+      "suit": "Bamboo",
+      "tile": "🀔",
+      "id": "5-bamboo"
     },
     {
-      "Suit": "Bamboo",
-      "tile": "🀕"
+      "suit": "Bamboo",
+      "tile": "🀕",
+      "id": "6-bamboo"
     },
     {
-      "Suit": "Bamboo",
-      "tile": "🀖"
+      "suit": "Bamboo",
+      "tile": "🀖",
+      "id": "7-bamboo"
     },
     {
-      "Suit": "Bamboo",
-      "tile": "🀗"
+      "suit": "Bamboo",
+      "tile": "🀗",
+      "id": "8-bamboo"
     },
     {
-      "Suit": "Bamboo",
-      "tile": "🀘"
+      "suit": "Bamboo",
+      "tile": "🀘",
+      "id": "9-bamboo"
     },
     {
-      "Suit": "Numbers",
-      "tile": "🀇"
+      "suit": "Numbers",
+      "tile": "🀇",
+      "id": "1-numbers"
     },
     {
-      "Suit": "Numbers",
-      "tile": "🀈"
+      "suit": "Numbers",
+      "tile": "🀈",
+      "id": "2-numbers"
     },
     {
-      "Suit": "Numbers",
-      "tile": "🀉"
+      "suit": "Numbers",
+      "tile": "🀉",
+      "id": "3-numbers"
     },
     {
-      "Suit": "Numbers",
-      "tile": "🀊"
+      "suit": "Numbers",
+      "tile": "🀊",
+      "id": "4-numbers"
     },
     {
-      "Suit": "Numbers",
-      "tile": "🀋"
+      "suit": "Numbers",
+      "tile": "🀋",
+      "id": "5-numbers"
     },
     {
-      "Suit": "Numbers",
-      "tile":"🀌"
+      "suit": "Numbers",
+      "tile":"🀌",
+      "id": "6-numbers"
     },
     {
-      "Suit": "Numbers",
-      "tile": "🀍"
+      "suit": "Numbers",
+      "tile": "🀍",
+      "id": "7-numbers"
     },
     {
-      "Suit": "Numbers",
-      "tile": "🀎"
+      "suit": "Numbers",
+      "tile": "🀎",
+      "id": "8-numbers"
     },
     {
-      "Suit": "Numbers",
-      "tile": "🀏"
+      "suit": "Numbers",
+      "tile": "🀏",
+      "id": "9-numbers"
     },
     {
-      "Suit": "Stones",
-      "tile": "🀙"
+      "suit": "Stones",
+      "tile": "🀙",
+      "id": "1-stone"
     },
     {
-      "Suit": "Stones",
-      "tile": "🀚"
+      "suit": "Stones",
+      "tile": "🀚",
+      "id": "2-stone"
     },
     {
-      "Suit": "Stones",
-      "tile": "🀛"
+      "suit": "Stones",
+      "tile": "🀛",
+      "id": "3-stone"
     },
     {
-      "Suit": "Stones",
-      "tile": "🀜"
+      "suit": "Stones",
+      "tile": "🀜",
+      "id": "4-stone"
     },
     {
-      "Suit": "Stones",
-      "tile": "🀝"
+      "suit": "Stones",
+      "tile": "🀝",
+      "id": "5-stone"
     },
     {
-      "Suit": "Stones",
-      "tile": "🀞"
+      "suit": "Stones",
+      "tile": "🀞",
+      "id": "6-stone"
     },
     {
-      "Suit": "Stones",
-      "tile": "🀟"
+      "suit": "Stones",
+      "tile": "🀟",
+      "id": "7-stone"
     },
     {
-      "Suit": "Stones",
-      "tile": "🀠"
+      "suit": "Stones",
+      "tile": "🀠",
+      "id": "8-stone"
     },
     {
-      "Suit": "Stones",
-      "tile": "🀡"
+      "suit": "Stones",
+      "tile": "🀡",
+      "id": "9-stone"
     },
     {
-      "Suit": "Winds",
+      "suit": "Winds",
       "tile": "🀀",
-      "translation": "east"
+      "id": "east"
     },
     {
-      "Suit": "Winds",
+      "suit": "Winds",
       "tile": "🀁",
-      "translation": "south"
+      "id": "south"
     },
     {
-      "Suit": "Winds",
+      "suit": "Winds",
       "tile": "🀂",
-      "translation": "west"
+      "id": "west"
     },
     {
-      "Suit": "Winds",
+      "suit": "Winds",
       "tile": "🀃",
-      "translation": "north"
+      "id": "north"
     },
     {
-      "Suit": "Dragons",
+      "suit": "Dragons",
       "tile": "🀄",
-      "translation": "red"
+      "id": "red"
     },
     {
-      "Suit": "Dragons",
+      "suit": "Dragons",
       "tile": "🀅",
-      "translation": "green"
+      "id": "green"
     },
     {
-      "Suit": "Dragons",
+      "suit": "Dragons",
       "tile": "🀆",
-      "translation": "white"
+      "id": "white"
     },
     {
-      "Suit": "Flowers",
+      "suit": "Flowers",
       "tile": "🀢",
-      "translation": "Plum"
+      "id": "plum"
     },
     {
-      "Suit": "Flowers",
+      "suit": "Flowers",
       "tile": "🀣",
-      "translation": "Orchid"
+      "id": "orchid"
     },
     {
-      "Suit": "Flowers",
+      "suit": "Flowers",
       "tile": "🀥",
-      "translation": "Chrysanthemum"
+      "id": "chrysanthemum"
     },
     {
-      "Suit": "Flowers",
+      "suit": "Flowers",
       "tile": "🀤",
-      "translation": "Bamboo"
+      "id": "bamboo"
     },
     {
-      "Suit": "Flowers",
+      "suit": "Flowers",
       "tile": "🀦",
-      "translation": "Spring"
+      "id": "spring"
     },
     {
-      "Suit": "Flowers",
+      "suit": "Flowers",
       "tile": "🀧",
-      "translation": "Summer"
+      "id": "summer"
     },
     {
-      "Suit": "Flowers",
+      "suit": "Flowers",
       "tile": "🀨",
-      "translation": "Autumn"
+      "id": "autumn"
     },
     {
-      "Suit": "Flowers",
+      "suit": "Flowers",
       "tile": "🀩",
-      "translation": "Winter"
+      "id": "winter"
     }
 ]
 

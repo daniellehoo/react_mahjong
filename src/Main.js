@@ -6,13 +6,7 @@ import three from "./images/3.png";
 import four from "./images/4.png";
 import "./App.css";
 
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Link,
-  useParams
-} from "react-router-dom";
+import { BrowserRouter as Router, Link, useParams } from "react-router-dom";
 
 const cards = [
   { image: one, text: "one", id: "one" },
@@ -59,18 +53,80 @@ function Main() {
           );
         })}
       </ul>
-      <div>
-        {data.map((item, index) => {
-          console.log(item);
-          return <Data title={item.tile} index={index} />;
-        })}
-      </div>
+      <Data />
     </div>
   );
 }
 
-function Data({ title, index }) {
-  return <h1>{title}</h1>;
+function Data() {
+  let bambooArray = [];
+  let numbersArray = [];
+  let stonesArray = [];
+  let windsArray = [];
+  let dragonsArray = [];
+  let flowersArray = [];
+  let garbageCollector = [];
+
+  data.map(item => {
+    // let arrayName = `${item.suit}`.toLowerCase() + `Array`;
+    // console.log(arrayName);
+    // data.indexOf(item.suit) === -1
+    //   ? { arrayName }.push(item.suit)
+    //   : console.log("null");
+
+    switch (item.suit) {
+      case "Bamboo":
+        bambooArray.indexOf(item.suit) === -1
+          ? bambooArray.push(item.suit)
+          : garbageCollector.push("");
+        bambooArray.push(item.tile);
+        break;
+      case "Numbers":
+        numbersArray.indexOf(item.suit) === -1
+          ? numbersArray.push(item.suit)
+          : garbageCollector.push("");
+        numbersArray.push(item.tile);
+        break;
+      case "Stones":
+        stonesArray.indexOf(item.suit) === -1
+          ? stonesArray.push(item.suit)
+          : garbageCollector.push("");
+        stonesArray.push(item.tile);
+        break;
+      case "Winds":
+        windsArray.indexOf(item.suit) === -1
+          ? windsArray.push(item.suit)
+          : garbageCollector.push("");
+        windsArray.push(item.tile);
+        break;
+      case "Dragons":
+        dragonsArray.indexOf(item.suit) === -1
+          ? dragonsArray.push(item.suit)
+          : garbageCollector.push("");
+        dragonsArray.push(item.tile);
+        break;
+      case "Flowers":
+        flowersArray.indexOf(item.suit) === -1
+          ? flowersArray.push(item.suit)
+          : garbageCollector.push("");
+        flowersArray.push(item.tile);
+        break;
+    }
+  });
+
+  console.log(numbersArray);
+
+  return (
+    <div className="allCards">
+      <h1>{bambooArray}</h1>
+      <h1>{numbersArray}</h1>
+      <h1>{stonesArray}</h1>
+      <h1>{windsArray}</h1>
+      <h1>{dragonsArray}</h1>
+      <h1>{flowersArray}</h1>
+
+    </div>
+  );
 }
 
 function Card({ id, callBack, selected }) {
@@ -78,6 +134,7 @@ function Card({ id, callBack, selected }) {
   return card ? (
     <img
       src={card.image}
+      alt={card.text}
       onClick={callBack}
       style={selected ? { border: "1px solid red" } : {}}
     />

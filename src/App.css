@@ -2,10 +2,25 @@
   display: flex;
 }
 
-h1 {
-  font-size: 10rem;
-  color: darkred;
+.allCards h1 {
+  font-size: 6rem;
+  color:black;
   font-weight: 400;
+}
+
+.allCards h1:hover {
+  color: red;
+}
+
+.allCards {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card {
+  display: flex;
 }
 
 .cardPage {
